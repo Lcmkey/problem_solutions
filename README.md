@@ -96,6 +96,8 @@ Go to your package.json, check the scripts key and look for the command(s) that 
 
 
 ---
+&thinsp;
+
 # Module not found: error can t resolve 'fs' in mime
 
 Add the following to your Webpack config:
@@ -107,6 +109,8 @@ Add the following to your Webpack config:
   ```
 
 ---
+
+&thinsp;
 
 # Reactjs set environment variables
 
@@ -125,6 +129,7 @@ REACT_APP_BASE_URL=http://localhost:3000
 
 ---
 
+&thinsp;
 
 # Error: Cannot find module 'webpack-cli/bin/config-yargs'
 
@@ -132,6 +137,7 @@ use the webpack-3.3.12 version `npm i webpack-cli@3.3.12` and it should work!
 
 ---
 
+&thinsp;
 
 # TypeError: Cannot assign to read only property 'jsx' of object '#Object'
 
@@ -154,3 +160,11 @@ Here's how I solved this temporarily until `react-scripts@4.01` is released.
 Now when you run `npm start` the errant `verifyTypeScriptSetup.js` in `node_modules` is patched.
 
 ---
+
+&thinsp;
+
+# Docker - Error saving credentials: error storing credentials
+
+```
+Removing "credsStore": "osxkeychain" from ~/.docker/config.json instead.
+```
